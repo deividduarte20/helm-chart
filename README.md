@@ -12,6 +12,11 @@ cd helm-chart
 
 ### Altere o arquivo de values.yaml conforme sua necessida exemplo namespace.
 
+### Caso queria simular sem executar a instalação do chart
+```bash
+helm install app --debug --dry-run ./helm-chart/
+```
+
 ### Instalar chart:
 ```bash
 helm install app ./helm-chart/
