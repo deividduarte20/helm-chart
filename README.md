@@ -24,7 +24,7 @@ helm install app ./helm-chart/
 
 ### Para consultar:
 ```bash
-k get all -n seu-namespace
+kubectl get all -n seu-namespace
 ```
 
 ### Para desinstalar o chart
