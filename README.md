@@ -22,12 +22,16 @@ helm install app --debug --dry-run ./helm-chart/ -n <nome-namespace>
 
 ### Instalar chart:
 ```bash
-helm install app ./helm-chart/ -n <nome-namespace>
+helm install app ./helm-chart/ -n seu-namespace
 ```
 
-### Para consultar:
+### Para consultar recursos no cluster:
 ```bash
 kubectl get all -n seu-namespace
+```
+### Para consultar release helm:
+```bash
+helm list -n seu-namespace
 ```
 
 ### Para desinstalar o chart
