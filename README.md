@@ -36,5 +36,5 @@ helm list -n seu-namespace
 
 ### Para desinstalar o chart
 ```bash
-helm uninstall app
+helm uninstall app -n seu-namespace
 ```
