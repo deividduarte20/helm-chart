@@ -10,16 +10,19 @@ git clone https://github.com/deividduarte20/helm-chart.git
 cd helm-chart
 ```
 
-### Altere o arquivo de values.yaml conforme sua necessida exemplo namespace.
+## Criar namespace
+```bash
+kubectl create ns <nome-namespace>
+```
 
 ### Caso queria simular sem executar a instalação do chart
 ```bash
-helm install app --debug --dry-run ./helm-chart/
+helm install app --debug --dry-run ./helm-chart/ -n <nome-namespace>
 ```
 
 ### Instalar chart:
 ```bash
-helm install app ./helm-chart/
+helm install app ./helm-chart/ -n <nome-namespace>
 ```
 
 ### Para consultar:

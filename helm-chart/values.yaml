@@ -40,7 +40,7 @@ service:
       targetPort: 80
       port: 80
 
-namespace: ms-app
+# namespace: ms-app
 
 image:
   deividdua32/imc
