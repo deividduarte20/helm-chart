@@ -1,5 +1,7 @@
 # O projeto helm-chart consiste em provisionar deployment, service e hpa em seu cluster kubernetes
 
+### Para alterar a imagem acesse o arquivo values.yaml 
+
 ### Clone o repositório:
 ```bash
 git clone https://github.com/deividduarte20/helm-chart.git
